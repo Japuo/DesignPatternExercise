@@ -1,0 +1,24 @@
+Assignment 2 - Design Patterns
+Made by Jacco Verhoeckx
+
+Description
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+Pattern Choice:
+I opted to implement an object pool to an existing shooting mechanic that I made in a past project.
+The old scripts used the inefficient method of Instantiating and deleting the bullet prefabs, so using
+this design pattern was a no-brainer :)
+
+Used Resources:
+I primarily used a Unity Learn tutorial for how to make a simple object pool
+(source: https://learn.unity.com/tutorial/introduction-to-object-pooling#5ff8d015edbc2a002063971d)
+
+How did the implementation go?:
+Fairly seamless, I only had to add an "ObjectPool" script, and rework a couple of older scripts by
+replacing the instantiate and destroy calls to fit with the newly added pool.
+
+Any deviation from the resource(s)?:
+Not really, the tutorial was fairly straightforward and easy to understand. The entire mechanic
+was up and running after the first try, so I couldn't really think of a way to make it even 
+smoother.
